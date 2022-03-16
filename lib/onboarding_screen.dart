@@ -130,7 +130,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               TextButton(
-                                onPressed: () {},
+                                onPressed: () {
+                                  _controller.jumpToPage(2);
+                                },
                                 child: Text(
                                   "SKIP",
                                   style: TextStyle(color: Colors.black),
