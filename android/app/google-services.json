@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "111111111111",
+    "project_id": "aaaaaaaaa",
+    "storage_bucket": "aaaaaaaa"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "dsdsdsdsdsd",
+        "android_client_info": {
+          "package_name": "com.example.onboarding_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "rrrrrrrrrrrrrrrr-NJhrmpdF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

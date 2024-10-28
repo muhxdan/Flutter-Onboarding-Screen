@@ -66,9 +66,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     padding: const EdgeInsets.all(40.0),
                     child: Column(
                       children: [
-                        Image.asset(
-                          contents[i].image,
-                          height: SizeConfig.blockV! * 35,
+                        Expanded( // Wrap the Image.asset with Expanded
+                          child: Image.asset(
+                            contents[i].image,
+                            // Remove fixed height here, let it be flexible
+                          ),
                         ),
                         SizedBox(
                           height: (height >= 840) ? 60 : 30,
